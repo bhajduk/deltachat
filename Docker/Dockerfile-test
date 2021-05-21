@@ -1,0 +1,3 @@
+FROM docker-build:build
+WORKDIR ./deltachat-desktop
+RUN npm test
